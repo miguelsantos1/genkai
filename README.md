@@ -2,12 +2,13 @@
 
 > Status: development...
 
-Online anime store
+<p> Online anime store </p>
 
 * Basic login system
 * Cookies
+* 4 screen
 
 <hr>
-<p> Login: <p>
+<p> Login: </p>
 User: Admin <br>
 Password: 123
