@@ -1,9 +1,13 @@
-# Genkai
-virtual store
+# Genkai!
 
-> Status: development
+> Status: development...
 
-Site sobre uma loja virtual de anime
+Online anime store
 
-com sistema de login e cookies
-Na área de login o úsuario é "Admin" e senha "123"
+* Basic login system
+* Cookies
+
+<hr>
+<p> Login: <p>
+User: Admin <br>
+Password: 123
