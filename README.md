@@ -1,5 +1,7 @@
 # Genkai!
 
+<a href="/etec199-2021-migueloliveira.atwebpages.com/genkai"> Genkai! </a>
+
 > Status: development...
 
 <p> Online anime store </p>
