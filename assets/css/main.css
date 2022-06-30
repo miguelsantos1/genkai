@@ -1,0 +1,55 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,700;1,600&display=swap');
+
+:root {
+  --light-gray: rgba(0, 0, 0, 0.674);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--light-gray);
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  color: var(--light-gray);
+}
+p {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+a {
+  padding: 5px 10px;
+}
+
+a, li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+input[type="button"] {
+  border: 1px dotted black;
+  cursor: pointer;
+  background-color: none;
+}

@@ -1,0 +1,152 @@
+header {
+    background-color: rgba(0, 0, 0, 0.027);
+
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0px;
+    margin-bottom: 2rem;
+}
+
+nav, ul {
+    display: flex;
+    gap: 5rem;
+}
+
+header nav ul li a:hover, 
+header a[href="login/formulario.php"]:hover
+{
+    border-bottom: 1px solid black;
+}
+
+header a[href="login/formulario.php"] {
+    color: rgb(82, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.283);
+}
+
+main {
+    width: min(1100px, 90vw);
+    margin: 0 auto;
+}
+
+.informations h1 {
+    margin-bottom: 2rem;
+}
+
+section {
+    margin: 2rem 0rem;
+}
+
+.categories-products h2 {
+   margin: 4rem 0rem 2rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.027);
+}
+
+form a {
+    border-radius: 3px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.023);
+    padding: 5px 50px;
+    font-weight: 300;
+  }
+  
+form a:hover {
+    border-radius: 1px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.498);
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    row-gap: 30px;
+}
+
+.cardproducts {
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.016);
+    cursor: pointer;
+    background-color: rgba(243, 243, 243, 0.425);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s;
+}
+
+.cardproducts:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.112);
+    transition: .5s;
+}
+
+.cardproducts img {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.name,
+.price {
+    margin: 10px 0px;
+}
+
+.name {
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    padding: 0 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        row-gap: 30px;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+
+    form {
+        background-color: transparent;
+    }
+
+    form a {
+        background: rgba(0, 0, 0, 0.027);
+    }
+
+    .categorias {
+        display: flex;
+  
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        row-gap: 30px;
+    }
+    
+}
