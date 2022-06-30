@@ -1,6 +1,6 @@
 # Genkai!
 
-Website: <a href="etec199-2021-migueloliveira.atwebpages.com/genkai"> Genkai! </a>
+Website: etec199-2021-migueloliveira.atwebpages.com/genkai"
 
 > Status: development...
 
