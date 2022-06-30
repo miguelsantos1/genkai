@@ -1,11 +1,11 @@
 <?php
-  if($_POST['nome'] == "Admin" && $_POST['senha'] == "123") {
+  if($_POST['name'] == "Admin" && $_POST['password'] == "123") {
     session_start();
-    $_SESSION["login"] = "SIM";
+    $_SESSION["login"] = true;
     
-    header("Location: admin-page.php");
+    header("Location: admin/admin-page.php");
   } else {
-    $_SESSION["login"] = "NAO";
+    $_SESSION["login"] = false;
     header("Location: formulario.php");
   }
 ?>
