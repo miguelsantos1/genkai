@@ -23,7 +23,7 @@
 
           <h1>Bem-vindo, Admin!</h1>
 
-          <a href="../index.php">Home</a>  
+          <a href="../../index.php">Home</a>  
           <a href="register-products.php">Produtos</a>  
           <a href="sales.php">Vendas</a>  
           <a href="../loggout.php">Deslogar</a>  
