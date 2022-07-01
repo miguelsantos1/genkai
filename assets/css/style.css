@@ -111,7 +111,7 @@ form a:hover {
 
 @media (max-width: 1200px) {
     
-    .produtos {
+    .products {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
@@ -130,7 +130,7 @@ form a:hover {
         background: rgba(0, 0, 0, 0.027);
     }
 
-    .categorias {
+    .categories {
         display: flex;
   
         flex-direction: column;
@@ -142,7 +142,7 @@ form a:hover {
 
 @media (max-width: 700px) {
 
-    .produtos {
+    .products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
